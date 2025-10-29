@@ -68,30 +68,11 @@ Loading into database...
 📦 Total log entries: 5
 
 📊 Log Level Summary:
-  INFO: 2
-  WARNING: 1
-  ERROR: 2
+     INFO: 2
+     WARNING: 1
+     ERROR: 2
 ``
-### Folder Structure
- Local-Log-to-DB-Pipeline/
-│
-├──  logs/                      # Folder with your sample .log files
-│   └── app.log
-│
-├──  src/                       # Source code for ETL pipeline
-│   ├── extract.py                # Extracts data from log files
-│   ├── transform.py              # Cleans and structures data
-│   ├── load.py                   # Loads data into SQLite database
-│   ├── analyze.py                # Analyzes and summarizes data
-│   └── main.py                   # Orchestrates ETL workflow
-│
-├── logs.db                    # SQLite database file
-│
-├── requirements.txt           # Python dependencies
-│
-├──  .gitignore                 # Ignore unnecessary files
-│
-└──  README.md                  # Project documentation
+
 
 ### Author 
 # Matthew Lawrence L
