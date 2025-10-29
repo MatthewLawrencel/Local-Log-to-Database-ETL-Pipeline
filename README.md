@@ -73,7 +73,7 @@ Loading into database...
   ERROR: 2
 ``
 ### Folder Structure
-
+----
 Local-Log-to-DB-Pipeline/
 ├── src/
 │   ├── extract.py
@@ -86,6 +86,8 @@ Local-Log-to-DB-Pipeline/
 ├── logs.db
 ├── requirements.txt
 └── README.md
+
+------
 ### Author 
 # Matthew Lawrence L
 Bengaluru, Karnataka
