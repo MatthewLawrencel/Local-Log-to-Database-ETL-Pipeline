@@ -1,0 +1,5 @@
+2025-10-29 10:15:20, INFO, User login successful
+2025-10-29 10:16:01, ERROR, Database connection failed
+2025-10-29 10:18:33, WARNING, Low disk space
+2025-10-29 10:19:45, INFO, File uploaded successfully
+2025-10-29 10:22:00, ERROR, API request timeout

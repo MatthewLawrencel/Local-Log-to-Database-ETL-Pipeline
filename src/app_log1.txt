@@ -1,0 +1,4 @@
+2025-10-29 10:00:01,INFO,User 123 logged in
+2025-10-29 10:05:22,ERROR,Failed to fetch user data
+2025-10-29 10:06:09,INFO,User 456 logged out
+2025-10-29 10:07:30,WARNING,Slow response detected
