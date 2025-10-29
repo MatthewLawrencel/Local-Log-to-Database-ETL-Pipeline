@@ -60,16 +60,26 @@ python -m src.analyze
 ### Example Output
 
 Extracting logs...
+
 Transforming logs...
+
+
 Loading into database...
+
+
 ✅ Data successfully loaded into logs.db
+
+
 🎯 Pipeline completed successfully!
 
 📦 Total log entries: 5
 
 📊 Log Level Summary:
+   
      INFO: 2
+     
      WARNING: 1
+     
      ERROR: 2
 ``
 
