@@ -17,19 +17,19 @@ This project demonstrates how to:
 
 ##  Tech Stack
 
-- **Python**
-- **SQLite** — Local database storage  
-- **os** — File extraction  
-- **sqlite3** — Database operations  
+- Python
+- SQLite  — Local database storage  
+- os      — File extraction  
+- sqlite3 — Database operations  
 
 ---
 
 ## Process
 
-### **Extract**
+### Extract
 Reads raw log files from the `logs/` directory.
 
-**Example raw log format:**
+Example raw log format :
 ```bash
 2025-01-12 10:02:01, INFO, Server started
 2025-01-12 10:05:23, ERROR, Failed to connect to DB
@@ -38,7 +38,7 @@ Reads raw log files from the `logs/` directory.
 
 ---
 
-### ** Transform**
+###  Transform
 Cleans and parses the log data:
 
 - Splits each line into `timestamp`, `level`, and `message`  
@@ -47,7 +47,7 @@ Cleans and parses the log data:
 
 ---
 
-### ** Load**
+### Load
 Inserts the transformed data into a SQLite database:
 
 - Creates **logs.db**  
@@ -56,7 +56,7 @@ Inserts the transformed data into a SQLite database:
 
 ---
 
-### ** Analyze**
+###  Analyze
 Performs log analysis:
 
 - Total log entries  
@@ -67,22 +67,22 @@ Performs log analysis:
 
 ## Run the Pipeline
 
-### **Install Dependencies**
+### Install Dependencies
 *(No external dependencies needed — uses Python standard library only.)*
 
 ---
 
-### **Run ETL**
+### Run ETL
 ```bash
 python main.py
 ```
 
-### **Run Analysis**
+### Run Analysis
 ```bash
 python analyze.py
 ```
 
-### **Example Output**
+### Example Output
 ```bash
  Extracting logs...
  Transforming logs...
@@ -90,7 +90,7 @@ python analyze.py
  ETL Pipeline completed successfully!
  Data saved to logs.db
 ```
-### **Analysis Output**
+### Analysis Output
 ```bash 
   Total log entries: 4
 
@@ -99,7 +99,7 @@ python analyze.py
   ERROR: 1
   WARNING: 1
 ```
-### **Create Your Log Files**
+### Create Your Log Files
   - Create files like logs/app1.log with the format:
 ```bash
 2025-01-12 10:02:01, INFO, Server started
@@ -107,8 +107,8 @@ python analyze.py
 2025-01-12 10:15:10, WARNING, High memory usage
 2025-01-12 11:00:00, INFO, Scheduled maintenance started
 ```
-### **Project Structure**
-----
+### Project Structure
+```bash
 Local-Log-to-Database-ETL-Pipeline/
 │
 ├── logs/
@@ -121,8 +121,10 @@ Local-Log-to-Database-ETL-Pipeline/
 │
 ├── main.py
 └── analyze.py
-----
-### **Author**
+```
+### Author
 **Matthew Lawrence L**
+
 Bengaluru,Karnataka
+
 lawrence82773824@gmail.com
